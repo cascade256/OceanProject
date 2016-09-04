@@ -2,15 +2,15 @@
 	"TargetName" : "OceanProjectEditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "80bbb9d4-1e8b-454f-b4e8-30440e0fa674",
+	"BuildId" : "",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
-		"MinorVersion" : 12,
-		"PatchVersion" : 2,
-		"Changelist" : 3005592,
+		"MinorVersion" : 13,
+		"PatchVersion" : 0,
+		"Changelist" : 3106830,
 		"IsLicenseeVersion" : 0,
-		"BranchName" : "++UE4+Release-4.12"
+		"BranchName" : "++UE4+Release-4.13"
 	},
 	"BuildProducts" :
 	[
@@ -82,6 +82,10 @@
 			"Type" : "UFS"
 		},
 		{
+			"Path" : "$(EngineDir)/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin",
+			"Type" : "UFS"
+		},
+		{
 			"Path" : "$(EngineDir)/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin",
 			"Type" : "UFS"
 		},
@@ -94,6 +98,10 @@
 			"Type" : "UFS"
 		},
 		{
+			"Path" : "$(EngineDir)/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin",
+			"Type" : "UFS"
+		},
+		{
 			"Path" : "$(EngineDir)/Plugins/Experimental/CharacterAI/CharacterAI.uplugin",
 			"Type" : "UFS"
 		},
@@ -102,11 +110,23 @@
 			"Type" : "UFS"
 		},
 		{
+			"Path" : "$(EngineDir)/Plugins/Media/AndroidMedia/AndroidMedia.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Media/AvfMedia/AvfMedia.uplugin",
+			"Type" : "UFS"
+		},
+		{
 			"Path" : "$(EngineDir)/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin",
 			"Type" : "UFS"
 		},
 		{
 			"Path" : "$(EngineDir)/Plugins/Media/WmfMedia/WmfMedia.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin",
 			"Type" : "UFS"
 		},
 		{
@@ -119,6 +139,18 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin",
 			"Type" : "UFS"
 		},
 		{
@@ -135,6 +167,10 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin",
+			"Type" : "UFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Plugins/Runtime/GearVR/GearVR.uplugin",
 			"Type" : "UFS"
 		},
 		{
@@ -199,6 +235,10 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/nvToolsExt64_1.dll",
+			"Type" : "NonUFS"
+		},
+		{
+			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/PhysX-3.3/Win64/VS2015/glut32.dll",
 			"Type" : "NonUFS"
 		},
 		{
